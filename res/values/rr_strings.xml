@@ -651,6 +651,7 @@
 
     <!-- Lockscreen weather -->
     <string name="lock_screen_weather_settings_title"><b>Lock screen weather</b></string>
+    <string name="lock_screen_weather_settings_title_summary">Customize Lock screen weather panel</string>
     <string name="weather_show_weather_title">Show weather</string>
     <string name="weather_show_weather_summary">Enable to show weather informations</string>
     <string name="weather_show_location_title">Show location</string>
