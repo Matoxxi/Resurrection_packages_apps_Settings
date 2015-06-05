@@ -1227,10 +1227,6 @@ public class SettingsActivity extends Activity
                     if (TelephonyManager.getDefault().getPhoneCount() > 1) {
                         removeTile = true;
                     }
-                } else if (id == R.id.msim_mobile_networks) {
-                    if (TelephonyManager.getDefault().getPhoneCount() <= 1) {
-                        removeTile = true;
-                    }
                 } else if (id == R.id.data_usage_settings) {
                     // Remove data usage when kernel module not enabled
                     final INetworkManagementService netManager = INetworkManagementService.Stub
@@ -1283,6 +1279,16 @@ public class SettingsActivity extends Activity
                 } else if (id == R.id.development_settings) {
                     if (!showDev || um.hasUserRestriction(
                             UserManager.DISALLOW_DEBUGGING_FEATURES)) {
+                        removeTile = true;
+                    }
+                } else if (id == R.id.supersu_settings) {
+                    // Embedding into Settings is supported from SuperSU v1.85 and up
+                    boolean supported = false;
+                    try {
+                        supported = (getPackageManager().getPackageInfo("eu.chainfire.supersu", 0).versionCode >= 185);
+                    } catch (PackageManager.NameNotFoundException e) {
+                    }
+                    if (!supported) {
                         removeTile = true;
                     }
                 } else if (id == R.id.voice_wakeup_settings) {
