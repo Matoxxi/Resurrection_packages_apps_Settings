@@ -89,7 +89,12 @@ public class DeviceInfoSettings extends SettingsPreferenceFragment implements In
     private static final String KEY_MOD_BUILD_DATE = "build_date";
 
     static final int TAPS_TO_BE_A_DEVELOPER = 7;
-    
+
+    private static final String KEY_UPDATE_SETTINGS = "update_settings";
+    private static final String KEY_UPDATE_SETTINGS_PACKAGE_NAME = "com.rr.ota";
+
+    private PreferenceScreen mUpdateSettings;
+
     public static final String KEY_ADVANCED_MODE = "advanced_mode";
 
     SecureSettingSwitchPreference mAdvancedSettings;
@@ -193,6 +198,12 @@ public class DeviceInfoSettings extends SettingsPreferenceFragment implements In
             if (pref != null) {
                 getPreferenceScreen().removePreference(pref);
             }
+        }
+
+	 // Remove update settings if it is not present.
+        mUpdateSettings = (PreferenceScreen) findPreference(KEY_UPDATE_SETTINGS);
+        if (!Utils.isPackageInstalled(getActivity(), KEY_UPDATE_SETTINGS_PACKAGE_NAME)) {
+            getPreferenceScreen().removePreference(mUpdateSettings);
         }
 
         mAdvancedSettings = (SecureSettingSwitchPreference) findPreference(KEY_ADVANCED_MODE);
