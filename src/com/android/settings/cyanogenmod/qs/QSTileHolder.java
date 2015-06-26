@@ -18,11 +18,10 @@ package com.android.settings.cyanogenmod.qs;
 import android.content.Context;
 
 import android.text.TextUtils;
+
 import com.android.internal.util.cm.QSConstants;
 import com.android.internal.util.cm.QSUtils;
 import com.android.settings.R;
-
-import java.util.Arrays;
 
 /**
  * This class holds the icon, the name - or the string the user sees,
@@ -202,13 +201,32 @@ public class QSTileHolder {
                 stringId = R.string.qs_tile_powermenu;
                 break;
             case QSConstants.TILE_HEADS_UP:
-                resourceName = "ic_qs_heads_up_on";
+                resourceName = "ic_headsup_toggle_on";
                 stringId = R.string.qs_tile_heads_up;
                 break;
             case QSConstants.TILE_SLIMACTION:
                 resourceName = "ic_qs_reboot_recovery";
                 stringId = R.string.qs_tile_slimaction;
                 break;
+            case QSConstants.TILE_SYSTEMUI_RESTART:
+                resourceName = "ic_qs_systemui_restart";
+                stringId = R.string.qs_systemui_restart_tile;
+                break;
+
+            // Dynamic tiles
+            case QSConstants.DYNAMIC_TILE_NEXT_ALARM:
+                resourceName = "ic_dynamic_qs_next_alarm";
+                stringId = R.string.qs_dynamic_tile_next_alarm;
+                break;
+            case QSConstants.DYNAMIC_TILE_IME_SELECTOR:
+                resourceName = "ic_dynamic_qs_ime_selector";
+                stringId = R.string.qs_dynamic_tile_ime_selector;
+                break;
+            case QSConstants.DYNAMIC_TILE_ADB:
+                resourceName = "ic_dynamic_qs_adb";
+                stringId = R.string.qs_dynamic_tile_adb;
+                break;
+
             default:
                 return null;
         }

@@ -68,9 +68,6 @@
     <string name="hex">Hex:</string>
     <string name="hex_hint">#ff000000</string>
     <string name="set">Set</string>
-    <!-- Superuser indicator-->
-    <string name="su_indicator">Superuser indicator</string>
-    <string name="su_indicator_summary">Show superuser indicator when a session is active</string>
     <!-- Advanced, Device specific (DeviceParts) settings  -->
     <string name="device_settings_title">Device</string>
     <string name="rr_mod_version">Resurrection version</string>
@@ -121,6 +118,7 @@
     <string name="enable_clock_weekday_summary">Abbreviated day of the week before the time</string>
     <string name="right_clock">Right clock</string>
     <string name="center_clock">Center clock</string>
+    <string name="left_clock">Left clock</string>
     <string name="dont_show">Don\'t show</string>
     <string name="clock_date_display">Date</string>
     <string name="clock_date_display_summary">Display custom date before the clock</string>
@@ -156,7 +154,7 @@
     <string name="app_notification_show_on_keyguard_summary">Show notifications from this app on the lockscreen</string>
     <string name="app_notification_no_ongoing_on_keyguard_title">Disable ongoing on lockscreen</string>
     <string name="app_notification_no_ongoing_on_keyguard_summary">Never show ongoing notifications from this app on the lockscreen</string>
-    <string name="rrc_settings_title"><b>Configurations</b></string>
+    <string name="rrc_settings_title">Configurations</string>
     <!-- Toast animations -->
     <string name="toast_animation_title">Toast animations</string>
     <string name="toast_animation_summary">Select and preview system toast animation</string>
@@ -245,7 +243,7 @@
     <string name="sourcebase_title">Source Base</string>
     <string name="title_about"><b>About Resurrection</b></string>
     <string name="rr_lockscreen_title"><b>Lock Screen</b></string>
-    <string name="rr_performance_settings_title"><b>Performance</b></string>
+    <string name="rr_performance_settings_title">Performance</string>
     <!-- QuickSettings: Quick Pulldown -->
     <string name="title_quick_pulldown">Quick pulldown</string>
     <string name="summary_quick_pulldown">%1$s edge of the status bar pulls down Quick Settings</string>
@@ -368,6 +366,7 @@
     <string name="shortcut_action_help_pie_second_layer_delete_last_entry">Removing every %1$s in the list will disable the second pie layer entirely.</string>
     <string name="shortcuts_applications">Applications</string>
     <string name="shortcut_action_kill">Kill app</string>
+    <string name="shortcut_action_restartui">Restart SystemUI</string>
     <string name="shortcut_action_lastapp">Last app</string>
     <string name="shortcut_action_assist">Search</string>
     <string name="shortcut_action_screenshot">Screenshot</string>
@@ -736,6 +735,7 @@
     <string name="qs_ambient_display_tile">Ambient display</string>
     <string name="qs_music_play_tile">Play</string>
     <string name="qs_tile_heads_up">Heads up</string>
+    <string name="qs_systemui_restart_tile">Restart SystemUI</string>
     <!-- Long press on lock screen lock icon to sleep -->
     <string name="longpress_lock_icon_to_sleep_title">Long press lock icon to sleep</string>
     <string name="longpress_lock_icon_to_sleep_summary">This option will not work if both smart lock and accessibility touch exploration are enabled</string>    
@@ -1007,6 +1007,11 @@
     <string name="title_pref_menu_display">Menu visibility</string>
     <string name="summary_pref_menu_display">How and when do you want the menu buttons to appear?</string>
 
+    <!-- The volume key answer -->
+    <string name="volume_answer_call_title">Volume key Answer</string>
+    <string name="volume_answer_call_summary">Volume up key Answer</string>
+
+
     <!-- Slim Shortcuts -->
     <string name="slim_shortcut_picker">Slim Actions</string>
     <string name="qs_tile_slimaction">SlimAction</string>
@@ -1059,5 +1064,9 @@
     <!-- Updater -->
     <string name="updater_title">Updates</string>
     <string name="updater_summary">Check for updates and more</string>
+
+    <!-- Double tap gesture anywhere on the lock screen put device to sleep -->
+    <string name="double_tap_sleep_anywhere_title">Double-tap to sleep anywhere</string>
+    <string name="double_tap_sleep_anywhere_summary">Double tap anywhere on the lockscreen to put the device to sleep</string>
 
 </resources>
