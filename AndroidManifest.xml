@@ -171,6 +171,12 @@
             </intent-filter>
         </activity>
 
+        <receiver android:name="com.android.settings.rr.util.OnBoot">
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED"/>
+            </intent-filter>
+        </receiver>
+
         <!-- Wireless Controls -->
 
         <activity android:name="Settings$WirelessSettingsActivity"
@@ -1260,6 +1266,7 @@
         <activity android:name="ChooseLockPatternSize" android:exported="false"/>
 
         <activity android:name="ChooseLockPattern" android:exported="false"/>
+        <activity android:name="ManageFingerprints" android:exported="false"/>
 
         <activity android:name="ChooseLockGesture" android:exported="false"/>
 
