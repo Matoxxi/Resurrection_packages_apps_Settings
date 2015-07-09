@@ -23,7 +23,13 @@
         android:summary="@string/device_g3_tmo_summary"
         android:selectable="false" 
         android:title="@string/device_g3_tmo" />
-    <Preference
+   <Preference
+        android:id="@+id/device_att_g3"
+        android:icon="@drawable/phone_tint"
+        android:summary="@string/device_att_g3_summary"
+        android:selectable="false" 
+        android:title="@string/device_att_g3" />    
+   <Preference
         android:id="@+id/device_d2spr"
         android:icon="@drawable/phone_tint"
         android:summary="@string/device_d2spr_summary"
@@ -90,6 +96,13 @@
         android:summary="@string/device_falcon_summary"
         android:selectable="false" 
         android:title="@string/device_falcon" />
+
+    <Preference
+        android:id="@+id/device_condor"
+        android:icon="@drawable/phone_tint"
+        android:summary="@string/device_condor_summary"
+        android:selectable="false" 
+        android:title="@string/device_condor" />
 
     <Preference
         android:id="@+id/device_peregrine"
