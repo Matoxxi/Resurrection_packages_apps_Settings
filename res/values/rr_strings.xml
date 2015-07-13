@@ -300,7 +300,9 @@
     <string name="heads_up_dnd_title">Do not disturb</string>
     <string name="heads_up_blacklist_title">Blacklist</string>
     <string name="heads_up_disabled_notice">To allow applications to display interactive notifications in a pop-up window on your screen, enable Heads up.</string>
-
+    <string name="heads_up_floating_window_title">Heads Up</string>
+    <string name="heads_up_floating_window_summary">Longpress and release to open in float mode when not on home screen</string>
+ 
     <!-- Heads up timeout -->
     <string name="heads_up_time_out_title">Time out</string>
 
@@ -552,6 +554,9 @@
     <string name="gesture_anywhere_position_right">Right edge</string>
     <string name="gesture_anywhere_gestures_title">Gestures</string>
     <string name="gesture_anywhere_gestures_summary">Add, remove, and edit gestures</string>
+    <string name="gesture_anywhere_floating">Float Mode</string>
+    <string name="gesture_anywhere_floating_summary">Launch shortcuts in float mode</string>
+
     <!-- Label, button used to add a gesture -->
     <string name="ga_button_add">Add gesture</string>
     <!-- Label, button used to reload all gestures -->
@@ -943,12 +948,19 @@
 
     <!-- Summary for "Configure lockscreen" when security gesture is enabled [CHAR LIMIT=45] -->
     <string name="unlock_set_unlock_mode_gesture">Gesture</string>
-    <!-- Notification drawer clear all icon -->
-    <string name="notification_drawer_clear_all_icon_color_title">Clear all icon</string>
 
+    <!-- Expanded header color -->
+    <string name="background_header_title">Header background color</string>
+    <string name="expanded_header_background_color_title">Color</string>
+
+    <!-- Clear button color -->
+    <string name="clear_all_color_title">Clear all icon color</string>
+    <string name="notification_drawer_clear_all_icon_color_title">Icon</string>
+    
     <!-- Task Manager -->
     <string name="enable_task_manager_title">Task Manager</string>
     <string name="enable_task_manager_summary">Enable/Disable action for the task manager button in the expanded statusbar area</string>
+
     <!-- SuperSU header name - the app hides itself from launcher based on this resource name being present in com.android.settings -->
     <string name="supersu_title">SuperSU</string>
 
@@ -1112,4 +1124,9 @@
     <string name="tab_position_summary">Display the tab on the top, middle, or bottom on the side of the screen.</string>
     <string name="tab_size_title">Tab size</string>
     <string name="tab_size_summary">Change the size of the visible tab.</string>
+    
+    <!-- Hide lock screen carrier -->
+    <string name="lock_screen_hide_carrier_title">Hide carrier on lock screen</string>
+    <string name="lock_screen_hide_carrier_summary">SystemUI will be restarted on switch toggle.</string>
+
 </resources>
