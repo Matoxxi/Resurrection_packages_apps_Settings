@@ -18,6 +18,11 @@
                   xmlns:settings="http://schemas.android.com/apk/res/com.android.settings"
                   android:title="@string/power_usage_summary_title">
 
+    <PreferenceScreen
+            android:key="battery_saver_settings"
+            android:title="@string/battery_saver"
+            android:fragment="com.android.settings.fuelgauge.BatterySaverSettings" />
+
     <ListPreference
             android:key="pref_perf_profile"
             android:dialogTitle="@string/perf_profile_title"
