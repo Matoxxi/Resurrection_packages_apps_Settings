@@ -14,27 +14,27 @@
 
     <!-- General strings -->
     <string name="ok">OK</string>
-    <string name="reset">Reset</string>
-    <string name="add">Add</string>
+    <string name="reset">リセット</string>
+    <string name="add">追加</string>
     <string name="attention">Attention</string>
     <string name="enabled">Enabled</string>
     <string name="default_string">Default</string>
-    <string name="help">Help</string>
-    <string name="reset_message">Clear all</string>
-    <string name="choose_app">Choose application</string>
+    <string name="help">ヘルプ</string>
+    <string name="reset_message">すべてクリア</string>
+    <string name="choose_app">アプリケーションを選択</string>
     
-    <string name="hw_cat">Hardware</string>
+    <string name="hw_cat">ハードウェア</string>
     
     <!-- UI debug setting: show CPU info? [CHAR LIMIT=25] -->
     <string name="show_cpu_info">Show CPU info</string>
     <!-- UI debug setting: show cpu usage summary [CHAR LIMIT=50] -->
-    <string name="show_cpu_info_summary">Screen overlay showing current CPU info</string>
+    <string name="show_cpu_info_summary">現在の CPU 情報をオーバーレイ表示する</string>
         
     <string name="advanced">Advanced</string>
     <string name="advanced_mode_title">Advanced mode</string>
     <string name="advanced_mode_summary">@null</string>
     
-    <string name="lockscreen_shortcuts_categories">Shortcuts</string>
+    <string name="lockscreen_shortcuts_categories">ショートカット</string>
     <string name="rr_lockscreen_targets_message_summary">Re-arrange lockscreen bottom shortcuts</string>
     <!-- LockClocK -->
     <string name="lock_clock_title">Clock widget settings</string>
@@ -44,17 +44,17 @@
     <string name="status_bar_ticker_summary">Notification text animation in the statusbar</string>    
 
     <!-- Lockscreen Shortcuts -->
-    <string name="lockscreen_shortcuts_title"><b>Shortcuts</b></string>
-    <string name="lockscreen_shortcuts_summary">View or change custom lock screen shortcuts</string>
+    <string name="lockscreen_shortcuts_title"><b>ショートカット</b></string>
+    <string name="lockscreen_shortcuts_summary">ロック画面のショートカットを確認もしくは変更します</string>
     <string name="lockscreen_shorcuts_longpress_title">Shortcuts longpress</string>
     <string name="lockscreen_shorcuts_longpress_summary">Open custom lock screen shortcuts on longpress</string>
 
     <!-- Slim settings screens -->
     <string name="header_category_personalization">Personalization</string>
-    <string name="interface_settings_title">Interface</string>
+    <string name="interface_settings_title">インターフェース</string>
     <!-- Screenshot sound -->
-    <string name="screenshot_sound_title">Screenshot sound</string>
-    <string name="screenshot_sound_summary">Plays sound effect when screenshot is taken</string>
+    <string name="screenshot_sound_title">スクリーンショットの効果音</string>
+    <string name="screenshot_sound_summary">スクリーンショットを撮った時に効果音を鳴らします</string>
     <!-- Color Picker -->
     <string name="dialog_color_picker_title">Color Picker</string>
     <string name="press_color_to_apply">Press on color below to apply</string>
@@ -69,10 +69,10 @@
     <string name="hex_hint">#ff000000</string>
     <string name="set">Set</string>
     <!-- Advanced, Device specific (DeviceParts) settings  -->
-    <string name="device_settings_title">Device</string>
-    <string name="rr_mod_version">Resurrection version</string>
+    <string name="device_settings_title">端末</string>
+    <string name="rr_mod_version">Resurrection バージョン</string>
     <!-- Status bar -->
-    <string name="status_bar_title"><b>Status Bar</b></string>
+    <string name="status_bar_title"><b>ステータスバー</b></string>
     <string name="status_bar_style_title">Style and Tweaks</string>
     <string name="rr_cat_title">Personalize</string>
     <string name="status_bar_style_title">Style</string>
@@ -80,17 +80,17 @@
     <string name="navbar_button_tint_title">Navigation button tint</string>    
     <!-- misc -->
     <string name="misc_settings_title"><b>Miscellaneous</b></string>
-    <string name="interface_settings_title"><b>Interface</b></string>
+    <string name="interface_settings_title"><b>インターフェース</b></string>
     <string name="rr_display_title">Display</string>
     <string name="rr_animations_title">Animations</string>
     <string name="listview_category_summary">Choose list view scroll animations and interpolator</string>
     <string name="status_bar_title_summary">Customize statusbar clock date and traffic monitor etc</string>
-    <string name="changelog_title"><b>Changelog</b></string>
-    <string name="changelog_title_summary">View recent changes in ROM</string>
-    <string name="changelog_loading">Loading changelog...</string>
-    <string name="changelog_error">Unable to load changelog</string>
-    <string name="changelog_unknown">Unknown</string>
-    <string name="changelog_version">Version</string>
+    <string name="changelog_title"><b>更新履歴</b></string>
+    <string name="changelog_title_summary">ROM の最近の更新を表示します</string>
+    <string name="changelog_loading">更新履歴を読み込み中...</string>
+    <string name="changelog_error">更新履歴の読み込みに失敗しました</string>
+    <string name="changelog_unknown">不明</string>
+    <string name="changelog_version">バージョン</string>
      <!-- Status bar greeting -->
     <string name="status_bar_greeting_category_title">Statusbar greeting</string>
     <string name="status_bar_greeting_title">Greeting</string>
@@ -99,44 +99,44 @@
     <string name="status_bar_greeting_main">Resurrection Remix ツ</string>
     <string name="status_bar_greeting_timeout_title">Greeting timeout</string>
     <!-- Statusbar logo -->
-    <string name="status_bar_logo_title">Show RR logo</string>
-    <string name="status_bar_logo_summary">Enable to show RR logo on the left side of statusbar</string>
-    <string name="status_bar_logo_color">RR logo color</string>
+    <string name="status_bar_logo_title">RR ロゴを表示する</string>
+    <string name="status_bar_logo_summary">RR ロゴをステータスバーの左側に表示させる</string>
+    <string name="status_bar_logo_color">RR ロゴの色</string>
     <!-- Status bar | Clock -->
-    <string name="status_bar_clock"><b>Clock and date</b></string>
-    <string name="status_bar_show_clock_second_title">Clock seconds</string>
-    <string name="status_bar_clock_title">Clock and date style</string>
-    <string name="clock_title_enable">Alignment</string>
-    <string name="clock_enabled">Enabled</string>
-    <string name="clock_disabled">Disabled</string>
-    <string name="clock_color_title">Color</string>
-    <string name="status_bar_clock_style_reset">Reset color</string>
-    <string name="status_bar_show_clock_title">Show clock and date</string>
-    <string name="status_bar_am_pm_title">AM/PM</string>
-    <string name="status_bar_am_pm_info">24-hour clock is enabled</string>
-    <string name="enable_clock_weekday">Day of the week</string>
+    <string name="status_bar_clock"><b>時計と日付</b></string>
+    <string name="status_bar_show_clock_second_title">時計の秒</string>
+    <string name="status_bar_clock_title">時計と日付のスタイル</string>
+    <string name="clock_title_enable">位置揃え</string>
+    <string name="clock_enabled">有効</string>
+    <string name="clock_disabled">無効</string>
+    <string name="clock_color_title">色</string>
+    <string name="status_bar_clock_style_reset">色のリセット</string>
+    <string name="status_bar_show_clock_title">時計と日付を表示する</string>
+    <string name="status_bar_am_pm_title">午前/午後</string>
+    <string name="status_bar_am_pm_info">24時間表記が有効になっています</string>
+    <string name="enable_clock_weekday">曜日</string>
     <string name="enable_clock_weekday_summary">Abbreviated day of the week before the time</string>
-    <string name="right_clock">Right clock</string>
-    <string name="center_clock">Center clock</string>
-    <string name="left_clock">Left clock</string>
-    <string name="dont_show">Don\'t show</string>
-    <string name="clock_date_display">Date</string>
+    <string name="right_clock">時計を右寄せ</string>
+    <string name="center_clock">時計を中央揃え</string>
+    <string name="left_clock">時計を左寄せ</string>
+    <string name="dont_show">表示しない</string>
+    <string name="clock_date_display">日付</string>
     <string name="clock_date_display_summary">Display custom date before the clock</string>
     <string name="clock_date_style">Date style</string>
     <string name="clock_date_format">Date format</string>
     <string name="clock_date_string_edittext_title">Must be in DateFormat eg. MM/dd/yy</string>
     <string name="clock_date_string_edittext_summary">Enter string</string>
-    <string name="am_pm_clock_normal">Normal font size</string>
-    <string name="am_pm_clock_small">Small font size</string>
-    <string name="am_pm_clock_none">Don\'t show</string>
-    <string name="clock_date_display_none">Don\'t show</string>
-    <string name="clock_date_display_small">Small font size</string>
-    <string name="clock_date_display_normal">Normal font size</string>
-    <string name="clock_date_style_normal">Normal</string>
-    <string name="clock_date_style_lowercase">Lowercase</string>
-    <string name="clock_date_style_uppercase">Uppercase</string>
-    <string name="clock_date_format_custom">Custom java format</string>
-    <string name="status_bar_clock_style_reset_message">Reset clock color?</string>
+    <string name="am_pm_clock_normal">通常の文字サイズ</string>
+    <string name="am_pm_clock_small">小さな文字サイズ</string>
+    <string name="am_pm_clock_none">表示しない</string>
+    <string name="clock_date_display_none">表示しない</string>
+    <string name="clock_date_display_small">小さな文字サイズ</string>
+    <string name="clock_date_display_normal">通常の文字サイズ</string>
+    <string name="clock_date_style_normal">通常の表記</string>
+    <string name="clock_date_style_lowercase">小文字表記</string>
+    <string name="clock_date_style_uppercase">大文字表記</string>
+    <string name="clock_date_format_custom">カスタム Java フォーマット</string>
+    <string name="status_bar_clock_style_reset_message">時計の色をリセットしますか？</string>
     <!-- StatusbarClock -->
     <string name="clock_font_style_title">Font</string>
     <string name="clock_font_bold">Default</string>
@@ -144,11 +144,11 @@
     <string name="clock_font_normal">Sans serif</string>
     <string name="clock_font_condensed">Condensed</string>
     <string name="clock_font_light_italic">Light Italic</string>
-    <string name="clock_font_resurrection">Resurrection Font</string>   
+    <string name="clock_font_resurrection">Resurrection Font</string>
     <!-- Show/Hide Search Bar -->
-    <string name="recents_show_searchbar">Disable Search Bar in Recents Menu</string>
-    <string name="recents_show_searchbar_summary">Disable or enable the Google search bar in the recents menu</string>
-    <string name="keywords_recents_show_searchbar">recent recents disable search bar searchbar hide</string>
+    <string name="recents_show_searchbar">アプリ履歴に検索バーを表示しない</string>
+    <string name="recents_show_searchbar_summary">アプリ履歴でのGoogle検索バーを無効化または有効化します</string>
+    <string name="keywords_recents_show_searchbar">recent recents disable search bar searchbar hide 検索 バー 検索バー 隠す</string>
     <!-- Keyguard Notification Settings -->
     <string name="app_notification_show_on_keyguard_title">Show on lockscreen</string>
     <string name="app_notification_show_on_keyguard_summary">Show notifications from this app on the lockscreen</string>
@@ -211,59 +211,59 @@
     <string name="listview_translate_right">Translate (Right)</string>
     
        <!-- About RR -->
-    <string name="about_rr_settings_title"><b>About Resurrection</b></string>
-    <string name="about_rr"><b>About Resurrection</b></string>
+    <string name="about_rr_settings_title"><b>Resurrection について</b></string>
+    <string name="about_rr"><b>Resurrection について</b></string>
     <string name="about_rr_summary">@null</string>
     <string name="about_r0m_summary">Everything about the Rom</string>
-    <string name="rr_donate">Donate to Development</string>
+    <string name="rr_donate">開発を支援する</string>
     <string name="rr_donate_summary">Show your support to Resurrection ROM</string>
     <string name="app_name"><b>Resurrection</b></string>
-    <string name="devs">Main Developer</string>
+    <string name="devs">主な開発者</string>
     <string name="github_westcrip">https://github.com/westcripp</string>
     <string name="github_cm">https://github.com/CyanogenMod</string>
     <string name="github_aokp">https://github.com/AOKP</string>
     <string name="github_omni">https://github.com/omnirom/</string>
     <string name="github_xenon92">https://github.com/xenon92</string>
     <string name="github_t4n017">https://github.com/t4n017</string>
-    <string name="rr">Links</string>
-    <string name="rr_website_title">Website</string>
-    <string name="rr_website_summary">Get more information about Resurrection Rom</string>
-    <string name="rr_forum_title">Forum</string>
-    <string name="rr_forum_summary">Be a member of Resurrection forum</string>
-    <string name="rr_source_title">Github</string>
-    <string name="rr_source_summary">Resurrection Sources</string>
-    <string name="rr_irc_title">Join me on IRC</string>
+    <string name="rr">リンク</string>
+    <string name="rr_website_title">Webサイト</string>
+    <string name="rr_website_summary">Resurrection Remix についてもっと知る</string>
+    <string name="rr_forum_title">フォーラム</string>
+    <string name="rr_forum_summary">Resurrection フォーラムのメンバーになる</string>
+    <string name="rr_source_title">GitHub</string>
+    <string name="rr_source_summary">Resurrection のソースコード</string>
+    <string name="rr_irc_title">IRC に参加する</string>
     <string name="rr_irc_summary">#aokp-sgs2 @ irc.freenode.net</string>
     <string name="rr_facebook_title">Facebook</string>
-    <string name="rr_facebook_summary">Facebook community</string>
+    <string name="rr_facebook_summary">Facebook コミュニティ</string>
     <string name="rr_google_plus_title">Google+</string>
-    <string name="rr_google_plus_summary">Google+ community</string>
-    <string name="maincontributors_title">Developer</string>
-    <string name="maintainer_categorie_title">Official Devices</string>
+    <string name="rr_google_plus_summary">Google+ コミュニティ</string>
+    <string name="maincontributors_title">開発者</string>
+    <string name="maintainer_categorie_title">公式な端末</string>
     <string name="sourcebase_title">Source Base</string>
-    <string name="title_about"><b>About Resurrection</b></string>
-    <string name="rr_lockscreen_title"><b>Lock Screen</b></string>
-    <string name="rr_performance_settings_title">Performance</string>
+    <string name="title_about"><b>Resurrection について</b></string>
+    <string name="rr_lockscreen_title"><b>ロック画面</b></string>
+    <string name="rr_performance_settings_title">パフォーマンス</string>
     <!-- QuickSettings: Quick Pulldown -->
-    <string name="title_quick_pulldown">Quick pulldown</string>
+    <string name="title_quick_pulldown">クイックプルダウン</string>
     <string name="summary_quick_pulldown">%1$s edge of the status bar pulls down Quick Settings</string>
-    <string name="quick_pulldown_off">Off</string>
-    <string name="quick_pulldown_left">Left</string>
-    <string name="quick_pulldown_right">Right</string>
-    <string name="block_on_secure_keyguard_title">Disable on lockscreen</string>
-    <string name="block_on_secure_keyguard_summary">Disable quick settings on secure lockscreen</string> 
+    <string name="quick_pulldown_off">オフ</string>
+    <string name="quick_pulldown_left">左</string>
+    <string name="quick_pulldown_right">右</string>
+    <string name="block_on_secure_keyguard_title">ロック画面では無効化</string>
+    <string name="block_on_secure_keyguard_summary">セキュアなロック画面ではクイック設定を無効にします</string> 
     <!-- QuickSettings: Smart Pulldown -->
-    <string name="smart_pulldown_title">Smart pulldown</string>
+    <string name="smart_pulldown_title">スマートプルダウン</string>
     <string name="smart_pulldown_summary">Open Quick Settings when there are %1$s notifications present</string>
     <string name="smart_pulldown_off">Off</string>
     <string name="smart_pulldown_dismissable">No dismissable</string>
     <string name="smart_pulldown_persistent">No persistent</string>
     <string name="smart_pulldown_all">No dismissable or persistent</string>        
     <!-- Share RR ROM -->
-    <string name="share_rr">Share Rom</string>
-    <string name="share_rr_summary">Let people know you use Resurrection Rom</string>
-    <string name="share_message">Try Resurrection Rom! http://forum.resurrectionremix.com/</string>
-    <string name="share_chooser_title">Share Resurrection Remix via..</string>
+    <string name="share_rr">ROM を紹介する</string>
+    <string name="share_rr_summary">みんなにResurrection Remixを使っていることを知らせましょう</string>
+    <string name="share_message">Resurrection Remixを使ってみませんか？ http://forum.resurrectionremix.com/</string>
+    <string name="share_chooser_title">Resurrection Remix を共有する...</string>
     
     <string name="widgets_category">Widgets</string>
 
@@ -740,7 +740,6 @@
     <string name="qs_four_columns_title">Show four tiles per row</string>
     <!-- QuickSettings tiles -->
     <string name="qs_screenshot_tile">Screenshot</string>
-    <string name="qs_screenrecord_tile">Screenrecord</string>
     <string name="qs_sync_tile">Sync</string>
     <!-- Navring targets (enable/disable) -->
     <string name="navigation_ring_enable_title">Enable navigation rings</string>
@@ -949,19 +948,12 @@
 
     <!-- Summary for "Configure lockscreen" when security gesture is enabled [CHAR LIMIT=45] -->
     <string name="unlock_set_unlock_mode_gesture">Gesture</string>
+    <!-- Notification drawer clear all icon -->
+    <string name="notification_drawer_clear_all_icon_color_title">Clear all icon</string>
 
-    <!-- Expanded header color -->
-    <string name="background_header_title">Header background color</string>
-    <string name="expanded_header_background_color_title">Color</string>
-
-    <!-- Clear button color -->
-    <string name="clear_all_color_title">Clear all icon color</string>
-    <string name="notification_drawer_clear_all_icon_color_title">Icon</string>
-    
     <!-- Task Manager -->
     <string name="enable_task_manager_title">Task Manager</string>
     <string name="enable_task_manager_summary">Enable/Disable action for the task manager button in the expanded statusbar area</string>
-
     <!-- SuperSU header name - the app hides itself from launcher based on this resource name being present in com.android.settings -->
     <string name="supersu_title">SuperSU</string>
 
@@ -1129,21 +1121,5 @@
     <!-- Hide lock screen carrier -->
     <string name="lock_screen_hide_carrier_title">Hide carrier on lock screen</string>
     <string name="lock_screen_hide_carrier_summary">SystemUI will be restarted on switch toggle.</string>
-
-    <!-- SlimDim -->
-    <string name="dim_nav_buttons_category">SlimDim</string>
-    <string name="dim_nav_buttons_title">Dim buttons after inactivity</string>
-    <string name="dim_nav_buttons_summary">Dim navigation bar buttons after not interacting with navigation bar for a specified time</string>
-    <string name="dim_nav_buttons_timeout_title">Timeout before dimming</string>
-    <string name="dim_nav_buttons_timeout_summary">Time (in milliseconds) to wait before dimming buttons</string>
-    <string name="dim_nav_buttons_alpha_title">Dim alpha</string>
-    <string name="dim_nav_buttons_alpha_summary">Alpha value to dim buttons to</string>
-    <string name="dim_nav_buttons_animate_title">Dim animation</string>
-    <string name="dim_nav_buttons_animate_summary">Animate the alpha fade</string>
-    <string name="dim_nav_buttons_animate_duration_title">Animation duration</string>
-    <string name="dim_nav_buttons_animate_duration_summary">Duration (in milliseconds) of the alpha animation</string>
-    <string name="dim_nav_buttons_touch_anywhere_title">Listen for touches on entire screen</string>
-    <string name="dim_nav_buttons_touch_anywhere_summary_on">Touching anywhere on the screen will cause buttons to un-dim</string>
-    <string name="dim_nav_buttons_touch_anywhere_summary_off">Only touches on the navbar will cause buttons to un-dim</string>
 
 </resources>
